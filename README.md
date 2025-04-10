@@ -2,6 +2,10 @@
 
 Este projeto tem como objetivo desenvolver um modelo preditivo para diagnosticar diabetes a partir de dados clínicos. O processo envolve desde a análise exploratória dos dados até a construção e avaliação de um modelo de aprendizado de máquina com técnicas de engenharia de atributos.
 
+## ⚠️ Observações
+
+- Alguns gráficos foram construídos com **Plotly Express (`px`)**, que gera gráficos interativos. Esses gráficos **não são renderizados diretamente no GitHub**. Para visualizá-los corretamente, é necessário abrir o notebook no [Google Colab](https://colab.research.google.com/drive/1OICzEfxQdkFjrvyc2yxmBpWSqIKvgqar?usp=sharing) ou em um ambiente Jupyter local.
+
 ## 📊 Sobre o Projeto
 
 A partir de um conjunto de dados contendo variáveis clínicas como glicose, insulina, IMC, idade e outros fatores, foi realizada uma série de etapas para aprimorar a performance do modelo, incluindo:
