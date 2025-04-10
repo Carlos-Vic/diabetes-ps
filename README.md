@@ -17,7 +17,7 @@ A partir de um conjunto de dados contendo variáveis clínicas como glicose, ins
 ## 📁 Arquivos
 
 - `diabetes_model.ipynb`: Notebook principal com todo o pipeline de análise, engenharia de atributos e modelagem.
-- `dados_diabetes.csv`: Conjunto de dados utilizado para treinar e avaliar o modelo.
+- `diabetes.csv`: Conjunto de dados utilizado para treinar e avaliar o modelo.
 
 ## 🧪 Resultados
 
@@ -26,9 +26,3 @@ O modelo final, um `RandomForestClassifier` com parâmetros otimizados, atingiu 
 - **Acurácia no conjunto de teste:** 0.84
 - **Precisão para diagnóstico positivo (diabético):** 0.81
 - **Recall para diagnóstico positivo (diabético):** 0.89
-
-As variáveis derivadas como `Glucose_BMI_Index`, `Glucose_BMI_Age`, `Insulin_per_Age` e `Glucose_Insulin_BMI` contribuíram significativamente para a melhora da performance preditiva.
-
-## 💡 Conclusão
-
-Através de uma abordagem centrada na compreensão clínica das variáveis e na engenharia de atributos, foi possível criar um modelo robusto, com bom desempenho e interpretabilidade. Este projeto mostra como dados clínicos bem trabalhados podem oferecer bons insights para suporte ao diagnóstico de diabetes.
